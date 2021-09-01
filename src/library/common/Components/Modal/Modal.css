@@ -1,0 +1,51 @@
+.ModalBackground{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color__background-modal);
+    position: fixed;
+    top: 0;
+    color: var(--color__secondary);
+    font-size: var(--font-size__title);
+}
+.todoCreator{
+    width: 250px;
+    height: 300px;
+    background-color: var(--color__background);
+    color: var(--color__primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 6px 8px 8px 2px rgba(0,0,0,0.76); 
+    box-shadow: 6px 8px 8px 2px rgba(0,0,0,0.76);
+}
+.button-Container{
+    margin-top: 20px;
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.newTask{
+    margin-top: 20px;
+    height: 48px;
+    width: 200px;
+    padding: 4px 8px;
+}
+.newTask:focus{
+    outline: none ;
+    border-color: var(--color__secondary-darker);
+    box-shadow: 0 0 10px var(--color__secondary-darker);
+}
+.button-Container button{
+    padding: 8px;
+
+}
+
+.Modal-label{
+    padding: 0 16px;
+    text-align: center;
+    font-weight: bold;
+}

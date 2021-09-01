@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color__primary: #FEA04F;
+  --color__secondary: #F0F0F7;
+  --color__secondary-darker: #B7B7CD;
+  --color__background: #21212A;
+  --color__background-lighter: #5E5D66;
+  --color__background-modal: rgba(94, 93, 102, .8);
+
+  --font-size__title: 2.5rem;
+
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color__background);
+  color: var(--color__secondary);
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+}

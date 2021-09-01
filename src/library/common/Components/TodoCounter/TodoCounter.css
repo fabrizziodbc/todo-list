@@ -1,0 +1,8 @@
+.todoCounter{
+    padding:  0 16px;
+    margin-bottom: 12px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-size: var(--font-size__title);
+}
